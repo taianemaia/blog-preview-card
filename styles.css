@@ -51,6 +51,14 @@ main {
     box-sizing: border-box; 
 }
 
+.content h1 {
+    padding: 6px 0;
+}
+
+.content h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
 .publish-date {
     font-size: 14px;
 }
