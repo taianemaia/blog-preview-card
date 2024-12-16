@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+    line-height: 1.5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 384px;
+    padding: 24px;
+    margin: 0 auto;
+    box-shadow: 8px 8px 0 0 #000;
+    border: 1px solid #111111;
+}
+
+.card > img {
+    border-radius: 10px;
+    display: block;
+}
+
+.content {
+    margin-top: 24px;
+    display: grid;
+    row-gap: 12px;
+}
+
+.category-label {
+    background-color: hsl(47, 88%, 63%);
+    justify-self: start;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 4px 12px;
+    box-sizing: border-box; 
+}
+
+.publish-date {
+    font-size: 14px;
+}
+
+.description {
+    color: hsl(0, 0%, 42%);
+}
+
+.author {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.author > img {
+    width: 32px;
+    height: 32px;
+}
+
+.author > p { 
+    font-weight: 800;
+    margin-left: 12px;
+}
